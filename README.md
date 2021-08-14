@@ -22,6 +22,8 @@ https://www.w3schools.com/html/html_elements.asp
 `(backtick)
 ```
 <tagname>Contents</tagname>
+
+* 시작태그만 있는 경우 : Empty Element
 ```
 
 > 포함관계(nested)>
