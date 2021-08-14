@@ -60,7 +60,6 @@ h1~h6 : 제목테크(h -> heading)
 
 https://www.w3schools.com/html/html_paragraphs.asp
 
-
 ### HTML Link
 
 https://www.w3schools.com/html/html_links.asp
@@ -75,6 +74,20 @@ a : anchor
 
 ### HTML FILE 경로
 
+https://www.w3schools.com/html/html_filepaths.asp
+
+절대 vs 상대
+- 경로 위치 표시 방식
+- 경로 표시 기준의 변경 여부
+- 절대경로방식
+- Ex) 대한민국 서울특별시 서초구 ~동 대호빌딩 801호 
+- 출발지 위치에 상관없이 항상 찾아갈수 있도록 표시
+- Ex) 도메인주소/상세경로 => https://www.naver.com/blog/image.jpg
+- 
+- 상대 경로 표시
+- Ex) 강남역 11번출구에서 3분 대호빌딩
+- 출발지 위치를 기준으로 표시
+- Ex) 상세경로 => /blog/image.jpg || image.jpg
 
 
 
