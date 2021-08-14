@@ -56,6 +56,10 @@ https://www.w3schools.com/html/html_headings.asp
 
 h1~h6 : 제목테크(h -> heading)
 
+### HTML Paragraph
+
+https://www.w3schools.com/html/html_paragraphs.asp
+
 
 
 
