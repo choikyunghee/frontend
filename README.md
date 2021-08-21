@@ -94,6 +94,16 @@ https://www.w3schools.com/html/html_filepaths.asp
 - Ex) 상세경로 => /blog/image.jpg || image.jpg
 
 
+### HTML Lists
+https://www.w3schools.com/html/html_lists.asp
+
+> 중첩목록(Nested List)
+
+### HTML Tables
+https://www.w3schools.com/html/html_tables.asp
+
+table generator : https://www.tablesgenerator.com/html_tables
+
 
 
 
