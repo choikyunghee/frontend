@@ -9,7 +9,7 @@ https://codesandbox.io/
 
 https://github.com/edu-ministori/frontend_08
 
-https://codesandbox.io/s/itac-08-0ye9v?file=/index.html
+https://codesandbox.io/s/itac-08-0ye9v?file=/
 
 
 
