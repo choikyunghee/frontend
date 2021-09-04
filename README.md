@@ -267,3 +267,4 @@ https://www.w3schools.com/css/css_background.asp
 ### box-sizing
 
 > box-sizing:border-box => width/height가 박스의 전체 길이가 됨
+> 
