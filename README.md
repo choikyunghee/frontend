@@ -155,3 +155,18 @@ https://www.w3schools.com/html/html_classes.asp
 >
 > - class로 붙여주는 이름은 한 HTML문서내에서 여러번 중복 사용할수 있음.
 > - class는 한 대상의 HTML Element에 여러개의이름을 지정할 수 있음.
+> 
+### CSS 상속
+
+> 부모요소에 적용된 CSS 속성이 자식요소에 적용되는것
+
+### Web Font
+
+> 웹에서 사용하는 Font는 브라우저에서 렌더링되기 때문에 기존에는 사용자 pc에 설치되어 있는 폰트를 사용
+>
+> 사용사 pc에 설치된 폰트를 찾지 않고 서버에 폰트를 저장해서 사용하는 방식 ==>웹폰트 방식
+>
+> 웹폰트 서비스
+>
+> - 구글 폰트(영문/한글) : https://fonts.google.com/
+> - 눈누 폰트(영문) : https://noonnu.cc/
