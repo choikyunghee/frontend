@@ -334,7 +334,11 @@ https://www.w3schools.com/css/css_background.asp
 div.name1 : div Element가 name1 클래스 이름을 가지고 있는 경우
 #name1.name2 : id이름이 name1 이면서 클래스 이름이 name2인 경우
 
-* 자손 선택자
+* 자손 요소 선택
 .name1 .name2 : 클래스 이름이 name1인 요소의 자손요소 중 클래서 이름이 .name2인 요소를 선택
+
+* 자식 요소 선택
+.name1>.name2 : 클래스 이름이 name1인 요소의 자식요소 중 클래스 이름이 
+.name2인 요소를 선택
 
 '''
