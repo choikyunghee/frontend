@@ -143,3 +143,105 @@ element.innerHTML = '<img src="picture.jps">'
 - ==, === : 데이터 타입 동시에 비교 여부
 
 - 비교 연산의 결과는 논리 데이터가 출력 : true / false
+
+### 논리 연산자
+
+- 여러개의 비교식을 연결해서 연산할때 사용
+- 논리 데이터를 연산할때 사용
+
+> &&(and) : &&로 연결되는 논리 비교식 또는 논리 데이터가 모두 참 일때 전체가 참
+
+```
+true && true => true
+true && false => false
+3<5 && 10<12 => true
+```
+
+| : pipe line
+
+> || (or) : ||로 연결되는 비교식 또는 논리 데이터가 하나라도 참이면 전체가 참
+
+```
+true || true => true
+true || false => true
+3<5 || 10>12 => true
+```
+
+## 명령문/구문 syntax
+
+- 프로그램 실행 흐름을 제어 역할
+
+### 조건문/분기문
+
+> if 구문
+> https://www.w3schools.com/js/js_if_else.asp
+
+```
+if(condition){
+  // 코드블럭
+}
+
+if(conditions){
+  // 코드블럭 1
+} else {
+  // 코드블럭 2
+}
+
+if(conditions 1){
+  //코드불럭 1
+} else if(conditions 2){
+  //코드블럭 2
+} else{
+  //코드블럭 3
+}
+```
+
+> conditions 식의 결과가 true이면 코드 블록을 실행 false면 실행하지 않음
+>
+> conditions : 결과가 ture/false가 나오는 식
+>
+> 숫자를 논리 데이터로 인식
+> 0 : false
+>
+> 그외의 정수 : true
+> if 사용법
+>
+> - else if(){} : 필요한 갯수만큼 사용 가능
+> - else : 맨마지막 부분에 사용
+
+> switch 구문
+> https://www.w3schools.com/js/js_switch.asp
+>
+> expression식의 결과에 따라 여러 갈래로 분기
+>
+> expression : 결과는 숫자, 문자의 형태
+
+```
+swith(expressions){
+  case '결과값1':
+   코드블럭1;
+   break;
+
+  case '결과값2':
+   코드블럭2;
+   break;
+
+  case '결과값3':
+   코드블럭3;
+   break;
+
+  default:
+   코드블럭4;
+}
+
+```
+
+### 반복문
+
+> for loop
+> https://www.w3schools.com/js/js_loop_for.asp
+
+> - 특정 횟수만큼 반복 실행
+
+> while loop
+> https://www.w3schools.com/js/js_loop_while.asp
