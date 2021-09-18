@@ -245,3 +245,11 @@ swith(expressions){
 
 > while loop
 > https://www.w3schools.com/js/js_loop_while.asp
+
+> - 특정 횟수만큼 반복 실행
+
+## 함수(function)
+
+- 특정한 기능을 실행(독립적으로 실행)할 수 있는 여러 코드를 묶어놓은 블럭
+- 선언(declaration) : 함수 정의(definition)
+- 호출(call) : 함수 실행
