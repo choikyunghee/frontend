@@ -67,6 +67,16 @@ https://www.w3schools.com/js/js_const.asp
 
 > ES5 버전에서는 일반 변수 var 만 존재, ES6 일반변수 let, 상수변수 const가 추가됨.
 
+### 변수 scope(접근 가능 범위)
+
+> Global Scope(전역 범위)
+>
+> Function Scope(함수지역 범위)
+>
+> Block Scope(블럭지역 범위)
+
+> var(ES5) 키워드는 Block Scope 개념이 적용되지 않고 전역변수처럼 인식됨.
+
 ### 데이터 타입
 
 - 숫자
