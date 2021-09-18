@@ -29,6 +29,51 @@
       } else {
         print2();
       }
+
+      // 재사용
+      let a = 0;
+
+      function print3() {
+        let b = "비교식 참";
+        console.log(b);
+      }
+
+      if (a > 5) {
+        print3();
+      } else if (a > 4) {
+        print3();
+      } else if (a > 3) {
+        print3();
+      } else {
+        let b = "비교식 거짓";
+        console.log(b);
+      }
+      // 매개변수
+      function sum() {
+        console.log(3 + 5);
+      }
+
+      sum();
+
+      function sum1(a, b) {
+        console.log(a + b);
+      }
+
+      sum1(3, 4);
+      sum1(1, 2);
+      sum1(2, 3);
+      sum1(2, 9);
+
+      // return
+      function sum2(a, b) {
+        let s = 0;
+        s = a + b;
+        return s;
+      }
+
+      let total = sum2(3, 4); // let total = sum2(7);
+
+      let todayNumber = new Date().getDay(); // let todayNumber = 6;
     </script>
   </head>
   <body></body>

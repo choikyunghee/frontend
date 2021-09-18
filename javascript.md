@@ -250,6 +250,53 @@ swith(expressions){
 
 ## 함수(function)
 
+https://www.w3schools.com/js/js_functions.asp
+
 - 특정한 기능을 실행(독립적으로 실행)할 수 있는 여러 코드를 묶어놓은 블럭
 - 선언(declaration) : 함수 정의(definition)
 - 호출(call) : 함수 실행
+- 재사용 가능
+
+## 배열, 객체, class
+
+- 데이터, 함수의 집합
+
+### 배열(array)
+
+https://www.w3schools.com/js/js_arrays.asp
+
+> 배열 데이터가 메모리에 생성되는 구조
+>
+> - 일반 변수는 선언이 되었을 때 메모리에 값이 직접 할당되는 형태이고, 배열 변수는 메모리에 배열 데이터가 저장된 곳의 주소값이 할당되는 형태
+>   배열 변수가 const로 선언되었을 때 각 원소들의 변경에는 영향을 미치지 않고, 배열 자체가 변경될 때는 영향을 미치기 때문에 변경할 수 없음.
+
+### 객체(object)
+
+https://www.w3schools.com/js/js_objects.asp
+
+> 프로그래밍 상의 데이터를 객체라는 개념으로 대상화시키는 것
+>
+> 객체
+>
+> - Property
+> - 객체가 가지고 있는 속성, 특성
+> - Method(함수)
+> - 객체의 기능, 동작
+>
+> - 객체 데이터는 name:value 한 쌍으로 구성됨.
+> - name:value 형태는 key:value 형태로도 이야기 함.
+>
+> - 객체 method에서 this 키워드를 사용하면 method를 소유하고 있는(포함하는) 객체를 가리킨다.
+
+> 내장객체
+>
+> - javascripts에서 기본으로 가지고 있는 객체
+> - Array, Date, Math
+
+### class
+
+https://www.w3schools.com/js/js_classes.asp
+
+> 객체 데이터를 여러개 생성할 수 있도록 하는 설계도
+>
+> new 키워드를 사용하며 객체 데이터를 생성
