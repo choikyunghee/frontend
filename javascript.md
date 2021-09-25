@@ -328,3 +328,100 @@ https://www.w3schools.com/js/js_classes.asp
 > - key down(press), change
 
 > focus
+>
+> 자동으로 발생되는 이벤트
+>
+> load
+
+### js form
+
+https://www.w3schools.com/html/html_form_input_types.asp
+https://www.w3schools.com/html/html_form_elements.asp
+
+> 폼 요소는 서버측에 데이터를 전달할 때 사용자의 입력을 받을수 있는 요소
+
+```
+<input Type"text" />
+<input Type"password" />
+<input Type"radio" />
+
+<select>
+  <option>HTML</option>
+  <option>CSS</option>
+</select>
+
+<button type="button">save</button>
+```
+
+> input 버튼과 button은 기능상의 차이는 없음.
+>
+> HTML 요소 구성의 차이
+> _ input은 빈 요소이고 button은 시작/죵료 테그로 구성됨
+> _ input 버튼은 컨텐츠 구성시 value atturibute 사용해야 하기 때문에 제약이 있음.
+> \_ button은 콘텐츠 구성시 제약이 없음.
+
+### js 작성방식
+
+> HTML, CSS와 javascript과 같이 사용될 때 3가지가 적용되기 위한 작성
+>
+> - Exteral : JS 파일을 따로 생성 : 외부 파일
+>
+> - Internal : HTML 문서내에 script 태그를 사용하여 코드를 작성
+> - Inline : HTML Element에 javascript 코드를 직접 작성하는 경우
+
+> Exteral과 Interal 방식으로 코딩하는 경우에는 Javascrip의 로딩 시점은 HTML 요소가 모두 로딩(렌더링)은 이후이여야 함
+>
+> script 테그에 defer라는 atturibute를 사용하면 script 테그 위치에 상관없이 HTML이 모두 로딩된 이후에 코드를 실행 할 수 있음
+>
+> defer atturibute는 외부 파일을 불러올때만 적용 가능
+
+```
+- Exteral
+<script src="function.js"></script>
+
+- Interal
+
+<script>
+  console.log(123):
+</script>
+
+- Inline
+
+<button type="button" onclick="show();">버튼</button>
+```
+
+### JS.DOM
+
+https://www.w3schools.com/js/js_htmldom.asp
+
+> DOM : Document Object Model
+>
+> - HTML 요소들이 객체로 생성된 것
+> - Javascript에서 HTML 요소들을 제어하기 위해서 사용
+
+### JS DOM Access
+
+> HTML4
+
+```
+document.getElementById('id');
+document.getElementsByTagName('tag');
+document.getElementsByClassName('class');
+
+```
+
+> jQuery
+
+```
+$('#id')
+$('tag')
+$('.class')
+```
+
+> HTML5
+
+```
+document.querySelector('#id');
+document.querySelector('tag');
+document.querySelector('.class');
+```

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>DOM Create, Read, Update, Delete(CRUD)</h1>
+
+    <div id="element01">HTML 요소1</div>
+    <p class="element01">HTML 요소2</p>
+    <div class="element02">HTML 요소3</div>
+
+    <div>HTML Semantic 요소 목록</div>
+    <ul class="list">
+      <li class="list-item">header</li>
+      <li class="list-item">footer</li>
+      <li class="list-item">section</li>
+    </ul>
+
+    <script>
+      console.log(document.querySelector("#element01"));
+      console.log(document.querySelector("p"));
+      console.log(document.querySelector(".element02"));
+
+      console.log(document.querySelectorALL(".list-item"));
+    </script>
+  </body>
+</html>
