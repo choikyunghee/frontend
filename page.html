@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js_ex/page.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -26,19 +27,40 @@
         </ul>
       </nav>
 
-      
-    </header>
       <button type="button" class="hamburger">
-        <img src="images/hamburger.png" alt="모바일메뉴버튼"/>
+        <img src="images/hamburger.png" alt="모바일메뉴열기" />
       </button>
+
+      <button type="button" class="close">
+        <img src="images/close.png" alt="모바일메뉴닫기" />
+      </button>
+
     </header>
     <section class="section01">
+      <div class='slide active'> 
       <h2 class="section-heading">UI/UX & Graphic Designer</h2>
       <p class="section-paragraph">
         2004년 7월 Web Hypertext Application Technology Working
         Group(WHATWG)에서 웹 애플리케이션 1.0이라는 이름으로 세부 명세 작업을
         시작하였다.
       </p>
+    </div>
+    <div class='slide'> 
+        <h2 class="section-heading">Front End Developer</h2>
+        <p class="section-paragraph">
+          2004년 7월 Web Hypertext Application Technology Working
+          Group(WHATWG)에서 웹 애플리케이션 1.0이라는 이름으로 세부 명세 작업을
+          시작하였다.
+        </p>
+      </div>
+      <div class='slide'> 
+          <h2 class="section-heading">Back End Developer</h2>
+          <p class="section-paragraph">
+            2004년 7월 Web Hypertext Application Technology Working
+            Group(WHATWG)에서 웹 애플리케이션 1.0이라는 이름으로 세부 명세 작업을
+            시작하였다.
+          </p>
+        </div>
     </section>
     <section class="section02">
       <div class="group">
@@ -53,7 +75,7 @@
         </figure>
         <figure class="figure">
           <video autoplay muted loop class="figure-video">
-            <source src="videos/mov_bbb (1).mp4" type="video/mp4" />
+            <source src="videos/mov_bbb.mp4" type="video/mp4" />
           </video>
         </figure>
       </div>
@@ -89,25 +111,24 @@
       </div>
     </section>
     <footer class="footer">
-        <div class="footer-wrap">
-          <div class="footer-copyright">
-            <div class="footer-copyright-heading">Piroll Design, Inc.</div>
-            <div class="footer-copyright-text">2021 Piroll. All right reserved.</div>
-          </div>
-          <div class="footer-sitemap">
-            <ul class="footer-sitemap-list">
-              <li class="footer-sitemap-item">Projects</li>
-              <li class="footer-sitemap-item">About</li>
-              <li class="footer-sitemap-item">Services</li>
-              <li class="footer-sitemap-item">Carreer</li>
-              <li class="footer-sitemap-item">News</li>
-              <li class="footer-sitemap-item">Events</li>
-              <li class="footer-sitemap-item">Contact</li>
-              <li class="footer-sitemap-item">Legal</li>
-            </ul>
-          </div>
+      <div class="footer-wrap">
+        <div class="footer-copyright">
+          <div class="footer-copyright-heading">Piroll Design, Inc.</div>
+          <div class="footer-copyright-text">2021 Piroll. All right reserved.</div>
         </div>
-      </footer>
-    </body>
-  </html>
-  
+        <div class="footer-sitemap">
+          <ul class="footer-sitemap-list">
+            <li class="footer-sitemap-item">Projects</li>
+            <li class="footer-sitemap-item">About</li>
+            <li class="footer-sitemap-item">Services</li>
+            <li class="footer-sitemap-item">Carreer</li>
+            <li class="footer-sitemap-item">News</li>
+            <li class="footer-sitemap-item">Events</li>
+            <li class="footer-sitemap-item">Contact</li>
+            <li class="footer-sitemap-item">Legal</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
